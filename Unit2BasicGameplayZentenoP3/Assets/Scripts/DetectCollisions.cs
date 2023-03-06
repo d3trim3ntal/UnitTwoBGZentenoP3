@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
@@ -18,6 +18,6 @@ public class DetectCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
