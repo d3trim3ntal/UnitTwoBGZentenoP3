@@ -8,7 +8,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangeX = 20;
     private float spawnPosZ = 20;
     private float startDelay = 2;
-    private float spawnInterval = 1.5f;
+    private float spawnInterval = 2.0f;
 
     public float sideSpawnMinZ;
     public float sideSpawnMaxZ;
@@ -18,6 +18,8 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
+        InvokeRepeating("SpawnLeftAnimal", startDelay, spawnInterval);
+        InvokeRepeating("SpawnRightAnimal", startDelay, spawnInterval);
     }
 
     // Update is called once per frame
@@ -26,6 +28,8 @@ public class SpawnManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S))
         {
             SpawnRandomAnimal();
+            SpawnLeftAnimal();
+            SpawnRightAnimal();
         }
     }
 
