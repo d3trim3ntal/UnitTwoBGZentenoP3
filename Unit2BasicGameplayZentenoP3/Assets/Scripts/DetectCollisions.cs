@@ -16,7 +16,7 @@ public class DetectCollisions : MonoBehaviour
         else if (other.CompareTag("Animal"))
         {
             other.GetComponent<AnimalHunger>().FeedAnimal(1);
-            Destroy(other.gameObject);
+            Destroy(gameObject);
         }
     }
     // Start is called before the first frame update
