@@ -1043,7 +1043,8 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1694783063849299275, guid: 8bb00608dcdd4384499c39e0a3cbffe1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8bb00608dcdd4384499c39e0a3cbffe1, type: 3}
 --- !u!1001 &7046718926347380459
 PrefabInstance:
@@ -1120,7 +1121,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteCow
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2319018185615594678, guid: 05b93081aa7f90047ae18d3bfefde756, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 05b93081aa7f90047ae18d3bfefde756, type: 3}
 --- !u!1001 &8426692237288873753
 PrefabInstance:
@@ -1214,6 +1216,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8724880669325265145, guid: dd88ddbdcec38fc47a5c022b8e3a842b, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9218676551419307925, guid: dd88ddbdcec38fc47a5c022b8e3a842b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1262,5 +1268,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BrownHorse
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 368947911606111014, guid: dd88ddbdcec38fc47a5c022b8e3a842b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dd88ddbdcec38fc47a5c022b8e3a842b, type: 3}
